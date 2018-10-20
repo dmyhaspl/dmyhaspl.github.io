@@ -11,10 +11,7 @@ github_repo: "https://github.com/dmyhaspl/dmyhaspl.github.io.git" # you code rep
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "There is no Buddhist tree at all,
-And there is bright mirror nor.
-Now there is nothing at all,
-How could be dust any more?"
+sidebar-about-description: "An AI researcher and python programmer"
 sidebar-avatar: /img/AI.png     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
