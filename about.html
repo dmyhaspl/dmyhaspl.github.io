@@ -5,32 +5,7 @@ description: "Hi, I am deepmyhaspl"
 header-img: "img/post-bg-rwd.jpg"
 ---
 
-<!-- Language Selector -->
-<!-- <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="0" > 中文 </option>
-    <option value="1" selected> English </option>
-</select> -->
 
-<!-- Chinese Version -->
-<div class="zh post-container">
-
-    <!--copied from markdown -->
-    <blockquote><p>菩提本无树，明镜亦非台。<br>
-    本来无一物，何处惹尘埃！ </p></blockquote>
-
-    <p>Hi，我是<strong>deepmyhaspl</strong>，一名AI的研究者和python 程序员</p>
-
-    <p></p>
-    
-    <h5>Talks</h5>
-
-    <ul>
-        <li><a href="https://github.com">GitHub</a></li>
-        <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-    </ul>
-</div>
-
-<!-- English Version -->
 <!-- <div class="en post-container">
     <blockquote><p>There is no Buddhist tree at all,<br>
                    And there is bright mirror nor.<br>
@@ -44,49 +19,10 @@ header-img: "img/post-bg-rwd.jpg"
 
     <ul>
     <li><a href="https://github.com">GitHub</a></li>
-    <li><a href="http://jekyll.com.cn/">jekyll</a></li>
+    <li><a href="http://jekyll.com/">jekyll</a></li>
     </ul>
 </div> -->
 
-<!-- Handle Language Change -->
-<script type="text/javascript">
-    // get nodes
-    var $zh = document.querySelector(".zh");
-    var $en = document.querySelector(".en");
-    var $select = document.querySelector("select");
-
-    // bind hashchange event
-    window.addEventListener('hashchange', _render);
-
-    // handle render
-    function _render(){
-        var _hash = window.location.hash;
-        // en
-        if(_hash == "#en"){
-            $select.selectedIndex = 1;
-            $en.style.display = "block";
-            $zh.style.display = "none";
-        // zh by default
-        }else{
-            // not trigger onChange, otherwise cause a loop call.
-            $select.selectedIndex = 0;
-            $zh.style.display = "block";
-            $en.style.display = "none";
-        }
-    }
-
-    // handle select change
-    function onLanChange(index){
-        if(index == 0){
-            window.location.hash = "#zh"
-        }else{
-            window.location.hash = "#en"
-        }
-    }
-
-    // init
-    _render();
-</script>
 
 
 <!-- Gitalk 评论 start  -->
