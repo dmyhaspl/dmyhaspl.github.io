@@ -2,7 +2,7 @@
 layout:     post                    # 使用的布局（不需要改）
 title:      Extract image edges through Tensorflow               # 标题 
 subtitle:   Convolution and pooling  #副标题
-date:       2018-10-20              # 时间
+date:       2018-10-23             # 时间
 author:     deepmyhaspl                     # 作者
 header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
