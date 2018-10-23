@@ -31,7 +31,7 @@ tf.nn.conv2d+tf.nn.maxpool
 Extract the edges first, then blur and dry
 先提取边缘，再模糊去燥
 """
-
+#All rights reserved.
 import tensorflow as tf
 from PIL import Image    
 import numpy as np
@@ -90,4 +90,4 @@ with tf.Session(graph=g) as sess:
     print y1.get_shape()
 
 ```
-All rights reserved
+
