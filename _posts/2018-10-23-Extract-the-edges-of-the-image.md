@@ -27,7 +27,7 @@ Created on Tue Oct  2 13:23:27 2018
 @author: myhaspl
 @email:myhaspl@myhaspl.com
 tf.nn.conv2d+tf.nn.maxpool
-All rights reserved
+
 Extract the edges first, then blur and dry
 先提取边缘，再模糊去燥
 """
@@ -90,4 +90,4 @@ with tf.Session(graph=g) as sess:
     print y1.get_shape()
 
 ```
-
+All rights reserved
